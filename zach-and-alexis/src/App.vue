@@ -1,25 +1,28 @@
 <template>
-  <div id="app">
-    <div id="menu">
-      <div id="brand">
-        <router-link to="/">
-          <img src="./assets/images/Wedding-Logo.png">
-        </router-link>
-      </div>
-      <div id="side">
-        <router-link to="/">
-          <div class="menu-item home">
-            <p>Home</p>
-          </div>
-        </router-link>
-      </div>
+<div id="app">
+  <div id="menu">
+    <div id="brand">
+      <router-link to="/">
+        <img src="/images/Wedding-Logo.png">
+      </router-link>
     </div>
-    <router-view />
+    <div id="side">
+      <router-link to="/">
+        <div class="menu-item home">
+          <p>Home</p>
+        </div>
+      </router-link>
+    </div>
   </div>
+  <router-view />
+</div>
 </template>
 
 <script>
-
+export default {
+  computed: {
+  }
+}
 </script>
 
 <style>
@@ -27,14 +30,16 @@
   box-sizing: border-box;
 }
 
-
+body {
+  margin: 50px 100px;
+}
 
 #menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 5px;
   grid-template-areas: "none brand side";
-  height: 100px;
+  margin-bottom: 50px;
 }
 
 #menu a {
@@ -45,12 +50,10 @@
   grid-area: brand;
   display: flex;
   justify-content: center;
-
 }
 
 #brand img {
-  width: 100%;
-
+  height: 200px;
 }
 
 #side {

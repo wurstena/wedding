@@ -1,136 +1,136 @@
-let picList = [
+let mock = [
 {
   id: 1,
   name: "Sitting in Fall Leaves",
   date: "October 4, 2020",
   location: "Provo Canyon",
-  pic: "/img/announcement-photo.92027571.jpg",
+  image: "announcement-photo.jpg"
 },
 {
   id: 2,
   name: "Temple Square Christmas Lights",
   date: "December 6, 2019",
   location: "Salt Lake City Temple Square",
-  pic: "/img/christmas-lights.87f0d6c2.jpg"
+  image: "christmas-lights.jpg"
 },
 {
   id: 3,
   name: "Engagement Photo",
   date: "October 4, 2020",
   location: "Provo Canyon",
-  pic: "/img/engagement-lifting-up.2fdd63b4.jpg"
+  image: "engagement-lifting-up.jpg"
 },
 {
   id: 4,
   name: "We're Engaged!",
   date: "September 21, 2020",
   location: "Our apartment complex",
-  pic: "/img/engagement-ring.c6059196.jpg"
+  image: "engagement-ring.jpg"
 },
 {
   id: 5,
   name: "2019 Halloween Costumes",
   date: "October 31, 2019",
   location: "BYU Campus",
-  pic: "/img/halloween.0c47166c.jpg"
+  image: "halloween.jpg"
 },
 {
   id: 6,
   name: "Engagement Ring",
   date: "October 4, 2020",
   location: "Provo Canyon",
-  pic: "/img/hands-focused.bdba657c.jpg"
+  image: "hands-focused.jpg"
 },
 {
   id: 7,
   name: "Light the Y",
   date: "October 15, 2019",
   location: "Y Mountain",
-  pic: "/img/hike-the-y.67c68a1e.jpg"
+  image: "hike-the-y.jpg"
 },
 {
   id: 8,
   name: "Engagement Photos - Kissing in the Fall",
   date: "October 4, 2020",
   location: "Provo Canyon",
-  pic: "/img/kissing-leaves.397c42c1.jpg"
+  image: "kissing-leaves.jpg"
 },
 {
   id: 9,
   name: "Laughing in the Car",
   date: "January 20, 2020",
   location: "On the way to get groceries",
-  pic: "/img/laughing-car.827b601a.jpg"
+  image: "laughing-car.jpg"
 },
 {
   id: 10,
   name: "Lighting the World",
   date: "December 3, 2019",
   location: "University Place Mall",
-  pic: "/img/light-the-world.2dcc2238.jpg"
+  image: "light-the-world.jpg"
 },
 {
   id: 11,
   name: "Engagement Photo with Masks",
   date: "October 4, 2020",
   location: "Provo Canyon",
-  pic: "/img/laughing-car.827b601a.jpg"
+  image: "masks.jpg"
 },
 {
   id: 12,
   name: "Kissing at the Payson Temple",
   date: "January 18, 2020",
   location: "Payson Temple",
-  pic: "/img/payson-kiss.4d8e8c51.jpg"
+  image: "payson-kiss.jpg"
 },
 {
   id: 13,
   name: "At the Payson Temple",
   date: "January 18, 2020",
   location: "Payson Temple",
-  pic: "/img/payson-temple.bd3b33a2.jpg"
+  image: "payson-temple.jpg"
 },
 {
   id: 14,
   name: "Piggy Back Engagement Photo",
   date: "October 4, 2020",
   location: "Provo Canyon",
-  pic: "/img/piggy-back.132841e6.jpg"
+  image: "piggy-back.jpg"
 },
 {
   id: 15,
   name: "Hugging after Zach Proposed",
   date: "September 19, 2020",
   location: "Provo Canyon",
-  pic: "/img/proposal-hug.b1baeae5.jpg"
+  image: "proposal-hug.jpg"
 },
 {
   id: 16,
   name: "Proposal",
   date: "September 19, 2020",
   location: "Provo Canyon",
-  pic: "/img/proposal.c59108cd.jpg"
+  image: "proposal.jpg"
 },
 {
   id: 17,
   name: "Visiting the Salt Lake Temple",
   date: "October 26, 2019",
   location: "Salt Lake City Temple",
-  pic: "/img/slc-temple.f29f3822.jpg"
+  image: "slc-temple.jpg"
 },
 {
   id: 18,
   name: "Engagement Photos - Walking through a field",
   date: "October 4, 2020",
   location: "Provo Canyon",
-  pic: "/img/walking-field.c287179c.jpg"
+  image: "walking-field.jpg"
 },
 {
   id: 19,
   name: "Sunset while Hiking the Y",
   date: "October 15, 2019",
   location: "Y Mountain",
-  pic: "/img/y-sunset.09ef6c22.jpg"
+  image: "y-sunset.jpg"
 }]
 
-export default picList;
+export default mock;

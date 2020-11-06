@@ -1,4 +1,4 @@
-# wedding-try-2
+# zach-and-alexis
 
 ## Project setup
 ```
