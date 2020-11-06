@@ -4,7 +4,7 @@ let picList = [
   name: "Sitting in Fall Leaves",
   date: "October 4, 2020",
   location: "Provo Canyon",
-  pic: "announcement-photo.jpg"
+  pic: "announcement-photo.jpg",
 },
 {
   id: 2,

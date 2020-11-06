@@ -7,7 +7,7 @@
         </router-link>
       </div>
       <div id="side">
-        <router-link to="/home">
+        <router-link to="/">
           <div class="menu-item home">
             <p>Home</p>
           </div>

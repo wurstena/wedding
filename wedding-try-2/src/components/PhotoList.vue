@@ -1,12 +1,12 @@
 <template>
   <div class="wrapper">
     <div class="images">
-      <div class="image" v-for="image in images" v-bind:key="image.id">
+      <div class="image" v-for="image in images" :key="image.id">
         <div class="info">
           <h1>{{image.name}}</h1>
         </div>
         <div class="picture">
-          <img :src="'/images/' + image.pic">
+          <img :src="'../assets/images/' + image.pic">
         </div>
         <div class="extra-info">
           <h2>{{image.date}}</h2>
@@ -47,8 +47,8 @@ export default {
 }
 
 .picture img {
-  height: 100%;
-  width: auto;
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
