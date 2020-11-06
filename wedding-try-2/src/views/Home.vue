@@ -1,18 +1,34 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div>
+    <div class="wrapper">
+
+    </div>
+    <PhotoList :images="images" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import PhotoList from "../components/PhotoList.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    PhotoList
+  },
+  computed: {
+    images() {
+      return this.$root.$data.images;
+    }
   }
-};
+}
 </script>
+
+<style scoped>
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+</style>
