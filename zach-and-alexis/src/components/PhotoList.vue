@@ -2,15 +2,18 @@
 <div class="wrapper">
   <div class="photos">
     <div class="photo" v-for="photo in photos" :key="photo.id">
-      <div class="info">
-        <h1>{{photo.name}}</h1>
-      </div>
-      <div class="picture">
+      <!--div :id="'picture' + photo.id" v-on:click="showInfo()">
         <img :src="'/images/'+photo.image">
+      </div-->
+      <div class="picture" v-if="photo.info">
+        <img :src="'/images/' + photo.image" v-on:click="showInfo(photo)">
       </div>
-      <div class="other-info">
-        <h2>{{photo.date}}</h2>
-        <p>{{photo.location}}</p>
+      <div class="info" v-else>
+        <div class="container" v-on:click="hideInfo(photo)">
+          <h5>{{photo.name}}</h5>
+          <h6>Date: {{photo.date}}</h6>
+          <h6>Location: {{photo.location}}</h6>
+        </div>
       </div>
     </div>
   </div>
@@ -21,9 +24,15 @@
 export default {
   name: 'PhotoList',
   props: {
-    photos: Array
+    photos: Array,
   },
   methods: {
+    showInfo(photo) {
+      photo.info = false;
+    },
+    hideInfo(photo) {
+      photo.info = true;
+    }
   }
 }
 </script>
@@ -45,44 +54,41 @@ export default {
 .photo {
   margin: 10px;
   margin-top: 50px;
-  width: 200px;
+  width: 300px;
 }
 
 .photo img {
-  border: 2px solid #333;
-  height: 250px;
-  width: 200px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
-.photo .picture {
+.info {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  padding: 20px;
+  align-items: center;
+  margin-bottom: 5px;
+  background-color: #f5c1c1;
+  border-radius: 10px;
+  color: #393939;
+}
+
+.info:hover {
+  cursor: pointer;
+}
+
+.picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 5px;
 }
 
-.info {
-  background: #F2921D;
-  color: #000;
-  padding: 10px 30px;
-  height: 80px;
-}
-
-.info h1 {
-  font-size: 16px;
-}
-
-.info h2 {
-  font-size: 14px;
-}
-
-.info p {
-  margin: 0px;
-  font-size: 10px;
-}
-
-.other-info {
-  display: flex;
+.picture:hover {
+  cursor: pointer;
 }
 
 .auto {

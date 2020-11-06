@@ -1,6 +1,7 @@
 let mock = [
 {
   id: 1,
+  info: true,
   name: "Sitting in Fall Leaves",
   date: "October 4, 2020",
   location: "Provo Canyon",
@@ -8,6 +9,7 @@ let mock = [
 },
 {
   id: 2,
+  info: true,
   name: "Temple Square Christmas Lights",
   date: "December 6, 2019",
   location: "Salt Lake City Temple Square",
@@ -15,6 +17,7 @@ let mock = [
 },
 {
   id: 3,
+  info: true,
   name: "Engagement Photo",
   date: "October 4, 2020",
   location: "Provo Canyon",
@@ -22,6 +25,7 @@ let mock = [
 },
 {
   id: 4,
+  info: true,
   name: "We're Engaged!",
   date: "September 21, 2020",
   location: "Our apartment complex",
@@ -29,6 +33,7 @@ let mock = [
 },
 {
   id: 5,
+  info: true,
   name: "2019 Halloween Costumes",
   date: "October 31, 2019",
   location: "BYU Campus",
@@ -36,6 +41,7 @@ let mock = [
 },
 {
   id: 6,
+  info: true,
   name: "Engagement Ring",
   date: "October 4, 2020",
   location: "Provo Canyon",
@@ -43,6 +49,7 @@ let mock = [
 },
 {
   id: 7,
+  info: true,
   name: "Light the Y",
   date: "October 15, 2019",
   location: "Y Mountain",
@@ -50,6 +57,7 @@ let mock = [
 },
 {
   id: 8,
+  info: true,
   name: "Engagement Photos - Kissing in the Fall",
   date: "October 4, 2020",
   location: "Provo Canyon",
@@ -57,6 +65,7 @@ let mock = [
 },
 {
   id: 9,
+  info: true,
   name: "Laughing in the Car",
   date: "January 20, 2020",
   location: "On the way to get groceries",
@@ -64,6 +73,7 @@ let mock = [
 },
 {
   id: 10,
+  info: true,
   name: "Lighting the World",
   date: "December 3, 2019",
   location: "University Place Mall",
@@ -71,6 +81,7 @@ let mock = [
 },
 {
   id: 11,
+  info: true,
   name: "Engagement Photo with Masks",
   date: "October 4, 2020",
   location: "Provo Canyon",
@@ -78,6 +89,7 @@ let mock = [
 },
 {
   id: 12,
+  info: true,
   name: "Kissing at the Payson Temple",
   date: "January 18, 2020",
   location: "Payson Temple",
@@ -85,6 +97,7 @@ let mock = [
 },
 {
   id: 13,
+  info: true,
   name: "At the Payson Temple",
   date: "January 18, 2020",
   location: "Payson Temple",
@@ -92,6 +105,7 @@ let mock = [
 },
 {
   id: 14,
+  info: true,
   name: "Piggy Back Engagement Photo",
   date: "October 4, 2020",
   location: "Provo Canyon",
@@ -99,6 +113,7 @@ let mock = [
 },
 {
   id: 15,
+  info: true,
   name: "Hugging after Zach Proposed",
   date: "September 19, 2020",
   location: "Provo Canyon",
@@ -106,6 +121,7 @@ let mock = [
 },
 {
   id: 16,
+  info: true,
   name: "Proposal",
   date: "September 19, 2020",
   location: "Provo Canyon",
@@ -113,6 +129,7 @@ let mock = [
 },
 {
   id: 17,
+  info: true,
   name: "Visiting the Salt Lake Temple",
   date: "October 26, 2019",
   location: "Salt Lake City Temple",
@@ -120,6 +137,7 @@ let mock = [
 },
 {
   id: 18,
+  info: true,
   name: "Engagement Photos - Walking through a field",
   date: "October 4, 2020",
   location: "Provo Canyon",
@@ -127,6 +145,7 @@ let mock = [
 },
 {
   id: 19,
+  info: true,
   name: "Sunset while Hiking the Y",
   date: "October 15, 2019",
   location: "Y Mountain",
