@@ -3,7 +3,7 @@
     <div id="menu">
       <div id="brand">
         <router-link to="/">
-          <img src="../images/Wedding-Logo.png">
+          <img src="./assets/images/Wedding-Logo.png">
         </router-link>
       </div>
       <div id="side">

@@ -6,7 +6,7 @@
           <h1>{{image.name}}</h1>
         </div>
         <div class="picture">
-          <img :src="'../assets/images/' + image.pic">
+          <!--img :src="'./assets/images/' + image.pic"-->
         </div>
         <div class="extra-info">
           <h2>{{image.date}}</h2>
