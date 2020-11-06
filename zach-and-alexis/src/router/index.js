@@ -4,6 +4,8 @@ import Home from "../views/Home.vue";
 import Photos from "../views/Photos.vue";
 import Registry from "../views/Registry.vue";
 import Rsvp from "../views/RSVP.vue";
+import Map from "../views/Map.vue";
+import Virtual from "../views/Virtual.vue";
 
 Vue.use(VueRouter);
 
@@ -28,6 +30,16 @@ const routes = [
     name: "Rsvp",
     component: Rsvp
   },
+  {
+    path: "/map",
+    name: "Map",
+    component: Map
+  },
+  {
+    path: "/virtual",
+    name: "Virtual",
+    component: Virtual
+  }
 ];
 
 const router = new VueRouter({

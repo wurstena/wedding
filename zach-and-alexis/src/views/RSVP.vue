@@ -4,7 +4,7 @@
     <div class="content-container">
       <div class="content-text">
       <p>Thank you for expressing your desire to come to our wedding! Please
-        RSVP using the link that corresponds with the invitation you received.</p>
+        RSVP using the link that corresponds with the invitation you received. There is no need to RSVP for the Virginia or Texas Open Houses.</p>
       </div>
       <a class="button-external" href="https://docs.google.com/forms/d/1BYhM8RVogjdOPT9IqiykOBPLZygInQTPZsdHlNcRTdw/prefill" target="_blank">
         Utah Ring Ceremony and Reception at 2:30PM

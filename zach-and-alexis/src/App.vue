@@ -26,9 +26,19 @@
               <p>Registry</p>
             </div>
           </router-link>
+          <router-link to="/virtual">
+            <div class="menu-item virtual">
+              <p>Virtual Attendance Information</p>
+            </div>
+          </router-link>
           <router-link to="/rsvp">
             <div class="menu-item rsvp">
               <p>RSVP</p>
+            </div>
+          </router-link>
+          <router-link to="/map">
+            <div class="menu-item map">
+              <p>Utah Reception Map</p>
             </div>
           </router-link>
         </div>
