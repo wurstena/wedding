@@ -278,13 +278,13 @@ router-link {
   margin-left: 20px;
   border-radius: 10px;
   padding: 10px;
-  background-color: #6d213c;
-  color: #e9e9e9;
+  background-color: #fab4b4;
+  color: black;
 }
 .button-external:hover {
-  color: #d9d9d9;
+  color: black;
   text-decoration: none;
-  background-color: #91415d;
+  background-color: #ED8D8D;
 }
 
 
