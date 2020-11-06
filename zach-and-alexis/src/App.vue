@@ -67,7 +67,7 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Didot", "Times New Roman", serif;
+  font-family: "Times New Roman", serif;
   text-decoration: none;
 }
 
@@ -114,7 +114,7 @@ img {
   padding-left: 1.5em;
   padding-right: 1.5em;
   padding-top: 5px;
-  font-family: "Didot", "Times New Roman", serif;
+  font-family: "Times New Roman", serif;
 }
 
 .menu-item:hover {
@@ -160,11 +160,11 @@ router-link {
   padding-bottom: 20px
 }
 .timeline-container h1 {
-  font-family: "Didot", "Times New Roman", serif;
+  font-family: "Times New Roman", serif;
   text-align: center;
 }
 .timeline-container h5, p {
-  font-family: "Didot", "Times New Roman", serif;
+  font-family: "Times New Roman", serif;
 }
 
 .circle {
@@ -255,7 +255,7 @@ router-link {
   padding-top: 10px;
 }
 .page-body h1, p {
-  font-family: "Didot", "Times New Roman", serif;
+  font-family: "Times New Roman", serif;
   text-align: center;
 }
 .content-container {
