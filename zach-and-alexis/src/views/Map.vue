@@ -21,6 +21,9 @@ export default {
 }
 h2 {
   margin-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {

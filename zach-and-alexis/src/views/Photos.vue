@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="wrapper">
-    <h3>Click on a photo for more information!</h3>
+    <h1>Click on a photo for more information!</h1>
   </div>
   <PhotoList :photos="photos" />
 </div>
@@ -30,7 +30,11 @@ export default {
   justify-content: center;
 }
 
-.wrapper h3 {
+.wrapper h1 {
   margin-top: 1.5em;
+}
+
+h1 {
+  text-align: center;
 }
 </style>

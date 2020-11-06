@@ -25,7 +25,6 @@
 
 <style scoped>
 .button-external {
-  width: 350px;
   text-align: center;
 }
 </style>
