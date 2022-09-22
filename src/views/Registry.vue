@@ -18,7 +18,6 @@
             Amazon
           </a>
         </div>
-        <p>Or Venmo us at <strong>@Zachary-Alvarez-8</strong></p>
       </div>
     </div>
 </template>
